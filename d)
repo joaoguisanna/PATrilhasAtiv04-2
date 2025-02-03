@@ -1,0 +1,20 @@
+using System;
+
+namespace PATrilhasAtiv05
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			 string texto = "";
+
+        string mensagem = (texto.Length == 0) ? "A string está vazia." : "A string contém texto.";
+
+        Console.WriteLine(mensagem);
+
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
